@@ -1,0 +1,61 @@
+body { text-align: center;
+}
+h1 {
+	color: rgb(187,230,65);
+	background-color: black;
+}
+
+h2 {
+	color: green;
+}
+
+.board {
+	display: inline-block;
+	height: 50%;
+	width: 50%;
+}
+
+.card {
+	background-color: yellow;
+	height: 200px;
+	width: 150px;
+	border-radius: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	float: left;
+	margin: 8%;
+}
+
+footer {
+	background-color: rgb(233,72,93);
+}
+
+span {
+	color: rgb(233,78,201);
+}
+
+nav {
+	background-color: #808080;
+	padding: 35px;
+}
+
+.nav1 {
+	background-color: #ffbf00;
+	color: white;
+	padding: 35px;
+	/*display: block;
+	float: left;*/
+}
+a:hover {
+	background-color: #ee5f3c;
+}
+
+     .clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
